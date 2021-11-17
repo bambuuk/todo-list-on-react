@@ -1,0 +1,42 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    &_mrg {
+        margin: 10px 5px;
+    }  
+    &__task {
+        display: inline-block;
+        line-height: 30px;
+        max-width: 700px;
+        font-size: 30px;
+    }
+    &__input {
+        margin-top: 15px;
+        width: 80%;
+        height: 35px;
+        font-size: 20px;
+        border: 2px solid rgb(25, 135, 84);
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    .line {
+        border: 1px solid black;
+        margin-top: 15px;
+        width: 900px;
+        height: 1px;
+    }
+}
+
+.btn {
+    font-size: 20px;
+    &_margin {
+        margin: 5px 5px;
+    }
+}
+.btns {
+    display: flex;
+    align-items: center;
+}

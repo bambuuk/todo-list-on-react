@@ -1,0 +1,31 @@
+.add-item {
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    &__label {
+        margin-right: 10px;
+        font-size: 40px;
+    }
+    &__input {
+        position: absolute;
+        margin-top: 15px;
+        width: 75%;
+        height: 35px;
+        font-size: 20px;
+        border: 2px solid rgb(25, 135, 84);
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    &__btn {
+        position: absolute;
+        margin-top: 15px;
+        height: 35px;
+        right: 15px;
+        font-size: 20px;
+        line-height: 0px;
+    }
+}
