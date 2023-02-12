@@ -9,6 +9,7 @@
     }  
     &__task {
         display: inline-block;
+        word-wrap: break-word;
         line-height: 30px;
         max-width: 700px;
         font-size: 30px;
